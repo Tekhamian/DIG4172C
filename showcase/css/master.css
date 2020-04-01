@@ -55,13 +55,14 @@ header{
 
 /************************************** Main Content index *************************************** */
 
-.main{
+/* .main{
   width: 100%;
-}
+} */
 
 /* 1st main content = slider */
-.below-banner{
-  margin-top: 25px;
+.banner{
+
+  margin-bottom: 8px;
 }
 
 /************************************** Main Content art&artist *************************************** */
@@ -104,3 +105,18 @@ height: 450px
   text-decoration: underline;
   color: #757575;
 }
+ /* *********************************Main News Article**************************************** */
+
+ .slide1 {
+    /* position: relative;
+    background-image: url(./img/StreetArt/vale-martinez-unsplash.jpg);
+    background-size: cover;
+    background-position: center; */
+    
+     background: rgba(1, 1, 1, 0.705); /* Black see-through */
+ }
+ /* *********************************Main News Article Pic**************************************** */
+ /* #news {
+  height: 368px;
+  width: 690px;
+} */
