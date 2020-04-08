@@ -1,0 +1,159 @@
+/* import google font fam here eg @import url(blah blah...) */
+@import url('https://fonts.googleapis.com/css?family=Anton|Francois+One|Righteous|Titillium+Web&display=swap');
+
+/************************************** Global Settings*************************************** */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-color: white; */
+}
+
+/************************************** Settings for Navigation*************************************** */
+
+header{
+  font-family: 'Righteous', cursive;
+  justify-content: space-between;
+  text-align: center;
+  padding: 30px 10%;
+}
+
+/* Horizontal Alignment */
+.linkz li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+/* Lower Font controller */
+.linkz li a{
+  font-size: large;
+  color: #616161;
+  transition: all 0.3s ease 0s;
+  font-family: 'Anton', sans-serif;
+}
+
+.linkz li a:hover {
+  text-transform: uppercase;
+  color: #212121;
+  background: rgba(0, 0, 0, 0);
+  color: #EF7F1F;
+  font-family: 'Anton', sans-serif;
+}
+
+/*Raises the Logo/ wordmark up from the nav-tabs*/
+.logo {
+  font-family: 'Righteous', cursive;
+  padding-top: 10px;
+  font-size: xx-large;
+  color: black;
+}
+
+.logo2 {
+  font-family: 'Righteous', cursive;
+  padding-top: 10px;
+  font-size: xx-large;
+  color: #EF7F1F;
+}
+/* lowers the nav tabs below wordmarks */
+.center-linkz {
+  padding-top: 50px;
+}
+
+.mobile {
+  padding-top: 10px;
+  color: grey;
+  font-size: xx-large;
+}
+
+/************************************** Main Content index *************************************** */
+
+/* .main{
+width: 100%;
+} */
+
+/* 1st main content = slider */
+.banner{
+
+  margin-bottom: 8px;
+}
+
+/************************************** Main Content art&artist *************************************** */
+
+.art-wrk{
+  height: p100px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+
+/* .btn {
+background-color: #9e9e9e;
+}
+
+
+.btn:hover {
+background-color: #616161;
+} */
+
+.artist-nm {
+  font-family: 'Anton', sans-serif;
+}
+
+.card-image {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.card-title {
+  font-family: 'Anton', sans-serif;
+}
+
+.card-content {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+p {
+  font-family: 'Titillium Web', sans-serif;
+}
+.support-banner {
+  height: 450px
+}
+
+.support-text {
+  padding: 30px 0 20px 30px;
+}
+
+.support-btn {
+  padding: 5%;
+}
+
+.featured-art {
+  height: 345px;
+}
+
+.featured {
+  height: 365px;
+}
+
+.contact {
+  text-decoration: underline;
+  color: #757575;
+}
+/* *********************************Main News Article**************************************** */
+
+.slide1 {
+  /* position: relative;
+  background-image: url(./img/StreetArt/vale-martinez-unsplash.jpg);
+  background-size: cover;
+  background-position: center; */
+
+  background: rgba(1, 1, 1, 0.705); /* Black see-through */
+}
+/* *********************************Main News Article Pic**************************************** */
+/* #news {
+height: 368px;
+width: 690px;
+} */
+
+/* ********************************* Footer **************************************** */
+.footer-txt {
+  font-family: 'Titillium Web', sans-serif;
+}
